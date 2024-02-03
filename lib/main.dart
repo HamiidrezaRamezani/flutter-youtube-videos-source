@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:text_widget_project/flutter_widgets/flutter_layout_widgets.dart';
 import 'package:text_widget_project/flutter_widgets/flutter_text_field.dart';
 
+import 'flutter_widgets/flutter_card_widget.dart';
 import 'flutter_widgets/flutter_container_widget.dart';
 
 void main() {
@@ -36,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const FlutterLayoutWidget(),
+      home: const FlutterCardWidget(),
     );
   }
 }
